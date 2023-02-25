@@ -1,0 +1,5381 @@
+[
+    {
+        "type": "iphone",
+        "name": "iPhone 14 Pro Max",
+        "slogan": "Pro. Beyond.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone15,3",
+        "model_number": [
+            "A2651",
+            "A2893",
+            "A2894",
+            "A2895",
+            "A2896"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2022-09-07",
+            "released_date": "2022-09-16",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "16.0",
+            "initial_build": "20A357",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 160.7,
+            "width": 77.6,
+            "depth": 7.85,
+            "weight": [
+                240
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Deep Purple",
+                "code": "#594F63"
+            },
+            {
+                "name": "Silver",
+                "code": "#F0F2F2"
+            },
+            {
+                "name": "Gold",
+                "code": "#F4E8CE"
+            },
+            {
+                "name": "Space Black",
+                "code": "#403E3D"
+            }
+        ],
+        "chip": {
+            "name": "A16 Bionic",
+            "code_name": "APL1W10",
+            "part_no": "T8120",
+            "process_node": "N4 FinFET",
+            "process_node_nm": 4,
+            "manufacturer": "TSMC",
+            "transistors_count": 16000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Everest",
+                    "core_no": 2,
+                    "clock_speed": 3460,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 16000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Sawtooth",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 24
+            },
+            "gpu": {
+                "name": "Sixth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1398,
+                "flops": 1.789,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 17000000000000
+            },
+            "memory": {
+                "type": "LPDDR5-6400",
+                "frequency": 3200,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 51200,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000,
+                1000000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.69,
+                "horizontal_inch": 2.8,
+                "vertical_inch": 6.07,
+                "horizontal_physical": 1290,
+                "vertical_physical": 2796,
+                "horizontal_logical": 430,
+                "vertical_logical": 932,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 1000,
+                "hdr_max": 1600,
+                "outdoor_max": 2000,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": true,
+            "always_on_display": true,
+            "refresh_rate_max": 120,
+            "refresh_rate_min": 1,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": true,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.3",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": false,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": true
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "High Dynamic Range Gyro",
+            "acclerometer_type": "High G Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": true,
+                    "resolution": 48,
+                    "resolution_quad_bayer": 12,
+                    "aperture": 1.78,
+                    "sensor_name": "Sony IMX803",
+                    "sensor_size": "1/1.28",
+                    "pixel_size": 1.22,
+                    "pixel_size_quad_bayer": 2.44,
+                    "has_ois": true,
+                    "ois_type": "2nd generation sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.8,
+                    "sensor_name": "Sony IMX713",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.2,
+                    "sensor_name": "Sony IMX633",
+                    "sensor_size": "1/2.55",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "Adaptive",
+            "photonic_engine": true,
+            "night_mode_portraits": true,
+            "photographic_style": true,
+            "macro_photo": true,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1,
+                2,
+                3
+            ],
+            "digital_zoom": 15
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "action_mode": true,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": true,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "2nd generation sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1,
+                2,
+                3
+            ],
+            "digital_zoom": 9,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 1.9,
+            "sensor_name": "Sony IMX714",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.86,
+            "watt_hour": 16.68,
+            "mah": 4323
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 14 Pro",
+        "slogan": "Pro. Beyond.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone15,2",
+        "model_number": [
+            "A2650",
+            "A2889",
+            "A2890",
+            "A2891",
+            "A2892"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2022-09-07",
+            "released_date": "2022-09-16",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "16.0",
+            "initial_build": "20A357",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 147.5,
+            "width": 71.5,
+            "depth": 7.85,
+            "weight": [
+                206
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Deep Purple",
+                "code": "#594F63"
+            },
+            {
+                "name": "Silver",
+                "code": "#F0F2F2"
+            },
+            {
+                "name": "Gold",
+                "code": "#F4E8CE"
+            },
+            {
+                "name": "Space Black",
+                "code": "#403E3D"
+            }
+        ],
+        "chip": {
+            "name": "A16 Bionic",
+            "code_name": "APL1W10",
+            "part_no": "T8120",
+            "process_node": "N4 FinFET",
+            "process_node_nm": 4,
+            "manufacturer": "TSMC",
+            "transistors_count": 16000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Everest",
+                    "core_no": 2,
+                    "clock_speed": 3460,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 16000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Sawtooth",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 24
+            },
+            "gpu": {
+                "name": "Sixth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1398,
+                "flops": 1.789,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 17000000000000
+            },
+            "memory": {
+                "type": "LPDDR5-6400",
+                "frequency": 3200,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 51200,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000,
+                1000000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.12,
+                "horizontal_inch": 2.56,
+                "vertical_inch": 5.56,
+                "horizontal_physical": 1179,
+                "vertical_physical": 2556,
+                "horizontal_logical": 393,
+                "vertical_logical": 852,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 1000,
+                "hdr_max": 1600,
+                "outdoor_max": 2000,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": true,
+            "always_on_display": true,
+            "refresh_rate_max": 120,
+            "refresh_rate_min": 1,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": true,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.3",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": false,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": true
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "High Dynamic Range Gyro",
+            "acclerometer_type": "High G Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": true,
+                    "resolution": 48,
+                    "resolution_quad_bayer": 12,
+                    "aperture": 1.78,
+                    "sensor_name": "Sony IMX803",
+                    "sensor_size": "1/1.28",
+                    "pixel_size": 1.22,
+                    "pixel_size_quad_bayer": 2.44,
+                    "has_ois": true,
+                    "ois_type": "2nd generation sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.8,
+                    "sensor_name": "Sony IMX713",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.2,
+                    "sensor_name": "Sony IMX633",
+                    "sensor_size": "1/2.55",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "Adaptive",
+            "photonic_engine": true,
+            "night_mode_portraits": true,
+            "photographic_style": true,
+            "macro_photo": true,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1,
+                2,
+                3
+            ],
+            "digital_zoom": 15
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "action_mode": true,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": true,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "2nd generation sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1,
+                2,
+                3
+            ],
+            "digital_zoom": 9,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 1.9,
+            "sensor_name": "Sony IMX714",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.87,
+            "watt_hour": 12.38,
+            "mah": 3200
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 14 Plus",
+        "slogan": "Big and bigger.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,8",
+        "model_number": [
+            "A2632",
+            "A2885",
+            "A2886",
+            "A2887",
+            "A2888"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2022-09-07",
+            "released_date": "2022-10-07",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "16.0",
+            "initial_build": "20A357",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 160.8,
+            "width": 78.1,
+            "depth": 7.8,
+            "weight": [
+                203
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Anodized Aluminum",
+            "back": "Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Blue",
+                "code": "#A0B4C7"
+            },
+            {
+                "name": "Purple",
+                "code": "#E6DDEB"
+            },
+            {
+                "name": "(PRODUCT)RED",
+                "code": "#FC0324"
+            },
+            {
+                "name": "Starlight",
+                "code": "#FAF6F2"
+            },
+            {
+                "name": "Midnight",
+                "code": "#222930"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1338,
+                "flops": 1.713,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.68,
+                "horizontal_inch": 2.8,
+                "vertical_inch": 6.06,
+                "horizontal_physical": 1284,
+                "vertical_physical": 2778,
+                "horizontal_logical": 428,
+                "vertical_logical": 926,
+                "scale_factor": 3,
+                "pixel_density": 458,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.3",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": false,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": false,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "High Dynamic Range Gyro",
+            "acclerometer_type": "High G Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.5,
+                    "sensor_name": "Sony IMX703",
+                    "sensor_size": "1/1.65",
+                    "pixel_size": 1.9,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "",
+            "photonic_engine": true,
+            "night_mode_portraits": false,
+            "photographic_style": true,
+            "macro_photo": false,
+            "apple_proraw": false,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 5
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": true,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 3,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 1.9,
+            "sensor_name": "Sony IMX714",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": false,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.86,
+            "watt_hour": 16.68,
+            "mah": 4325
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 14",
+        "slogan": "Big and bigger.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,7",
+        "model_number": [
+            "A2649",
+            "A2881",
+            "A2882",
+            "A2883",
+            "A2884"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2022-09-07",
+            "released_date": "2022-09-16",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "16.0",
+            "initial_build": "20A357",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 146.7,
+            "width": 71.5,
+            "depth": 7.8,
+            "weight": [
+                172
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Anodized Aluminum",
+            "back": "Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Blue",
+                "code": "#A0B4C7"
+            },
+            {
+                "name": "Purple",
+                "code": "#E6DDEB"
+            },
+            {
+                "name": "(PRODUCT)RED",
+                "code": "#FC0324"
+            },
+            {
+                "name": "Starlight",
+                "code": "#FAF6F2"
+            },
+            {
+                "name": "Midnight",
+                "code": "#222930"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1338,
+                "flops": 1.713,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.06,
+                "horizontal_inch": 2.56,
+                "vertical_inch": 5.54,
+                "horizontal_physical": 1170,
+                "vertical_physical": 2532,
+                "horizontal_logical": 390,
+                "vertical_logical": 852,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.3",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": false,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": false,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "High Dynamic Range Gyro",
+            "acclerometer_type": "High G Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.5,
+                    "sensor_name": "Sony IMX703",
+                    "sensor_size": "1/1.65",
+                    "pixel_size": 1.9,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "",
+            "photonic_engine": true,
+            "night_mode_portraits": false,
+            "photographic_style": true,
+            "macro_photo": false,
+            "apple_proraw": false,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 5
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": true,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 3,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 1.9,
+            "sensor_name": "Sony IMX714",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": false,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.87,
+            "watt_hour": 12.68,
+            "mah": 3279
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone SE (3rd generation)",
+        "slogan": "Love the power. Love the price.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,6",
+        "model_number": [
+            "A2595",
+            "A2782",
+            "A2783",
+            "A2784",
+            "A2785"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2022-03-08",
+            "released_date": "2022-03-18",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP67",
+            "max_depth": 1,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "15.4",
+            "initial_build": "19E241",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 138.4,
+            "width": 67.3,
+            "depth": 7.3,
+            "weight": [
+                144
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Anodized Aluminum",
+            "back": "Glass",
+            "ceramic_shield": false
+        },
+        "color": [
+            {
+                "name": "Starlight",
+                "code": "#FAF6F2"
+            },
+            {
+                "name": "Midnight",
+                "code": "#232A31"
+            },
+            {
+                "name": "(PRODUCT)RED",
+                "code": "#BF0013"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 4,
+                "eu_no": 16,
+                "alu_no": 512,
+                "frequency": 1338,
+                "flops": 1.37,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 4000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                64000,
+                128000,
+                256000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "IPS LCD",
+            "name": "Retina HD",
+            "screen_size_resolution": {
+                "diagonal_inch": 4.7,
+                "horizontal_inch": 2.3,
+                "vertical_inch": 4.1,
+                "horizontal_physical": 750,
+                "vertical_physical": 1334,
+                "horizontal_logical": 375,
+                "vertical_logical": 667,
+                "scale_factor": 2,
+                "pixel_density": 326,
+                "aspect_ratio": "16:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 625,
+                "hdr_max": null,
+                "outdoor_max": null,
+                "contrast_ratio": 1400
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": false,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": false,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "2x2",
+            "cellular_lte": true,
+            "cellular_lte_type": "LTE-Advanced",
+            "cellular_lte_mimo": "2x2",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": false,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": false,
+                "dual_sim": true,
+                "dual_esim": false,
+                "dual_nano_sim": false
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": true,
+            "touch_id_location": "Home button",
+            "face_id": false
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": false,
+            "crash_detection": false
+        },
+        "sensors": {
+            "lidar": false,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.8,
+                    "sensor_name": "Sony IMX315",
+                    "sensor_size": "1/3",
+                    "pixel_size": 1.22,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": false,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "With Slow Sync",
+            "photonic_engine": false,
+            "night_mode_portraits": false,
+            "photographic_style": true,
+            "macro_photo": false,
+            "apple_proraw": false,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                1
+            ],
+            "digital_zoom": 5
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": null,
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": false,
+            "stereo_recording": true,
+            "video_ois": "Lens-based",
+            "optical_zoom": [
+                1
+            ],
+            "digital_zoom": 3,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 7,
+            "aperture": 2.2,
+            "sensor_name": "",
+            "focus_pixel": false,
+            "night_mode": false,
+            "deep_fusion": true,
+            "photonic_engine": false,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": false,
+            "photographic_style": true,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": null,
+            "slow_mo": [],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Stereo",
+            "dolby_atmos": {
+                "built_in_speaker": false,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.88,
+            "watt_hour": 7.82,
+            "mah": 2018
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 13 Pro Max",
+        "slogan": "Oh. So. Pro.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,3",
+        "model_number": [
+            "A2484",
+            "A2641",
+            "A2644",
+            "A2645",
+            "A2643"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2021-09-14",
+            "released_date": "2021-09-24",
+            "discontinued_date": "2022-09-07",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "15.0",
+            "initial_build": "19A341/19A345",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 160.8,
+            "width": 78.1,
+            "depth": 7.65,
+            "weight": [
+                240
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Alpine Green",
+                "code": "#576856"
+            },
+            {
+                "name": "Silver",
+                "code": "#F1F2ED"
+            },
+            {
+                "name": "Graphite",
+                "code": "#54524F"
+            },
+            {
+                "name": "Gold",
+                "code": "#FAE7CF"
+            },
+            {
+                "name": "Sierra Blue",
+                "code": "#A7C1D9"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1338,
+                "flops": 1.713,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000,
+                1000000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.68,
+                "horizontal_inch": 2.8,
+                "vertical_inch": 6.06,
+                "horizontal_physical": 1284,
+                "vertical_physical": 2778,
+                "horizontal_logical": 428,
+                "vertical_logical": 926,
+                "scale_factor": 3,
+                "pixel_density": 458,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 1000,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": true,
+            "always_on_display": false,
+            "refresh_rate_max": 120,
+            "refresh_rate_min": 10,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": false,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.5,
+                    "sensor_name": "Sony IMX703",
+                    "sensor_size": "1/1.65",
+                    "pixel_size": 1.9,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.8,
+                    "sensor_name": "Sony IMX713",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.8,
+                    "sensor_name": "Sony IMX772",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "With Slow Sync",
+            "photonic_engine": false,
+            "night_mode_portraits": true,
+            "photographic_style": true,
+            "macro_photo": true,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1,
+                3
+            ],
+            "digital_zoom": 15
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": true,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1,
+                3
+            ],
+            "digital_zoom": 9,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": false,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.85,
+            "watt_hour": 16.75,
+            "mah": 4352
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 13 Pro",
+        "slogan": "Oh. So. Pro.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,2",
+        "model_number": [
+            "A2483",
+            "A2636",
+            "A2638",
+            "A2639",
+            "A2640"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2021-09-14",
+            "released_date": "2021-09-24",
+            "discontinued_date": "2022-09-07",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "15.0",
+            "initial_build": "19A341/19A345",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 146.7,
+            "width": 71.5,
+            "depth": 7.65,
+            "weight": [
+                204
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Alpine Green",
+                "code": "#576856"
+            },
+            {
+                "name": "Silver",
+                "code": "#F1F2ED"
+            },
+            {
+                "name": "Graphite",
+                "code": "#54524F"
+            },
+            {
+                "name": "Gold",
+                "code": "#FAE7CF"
+            },
+            {
+                "name": "Sierra Blue",
+                "code": "#A7C1D9"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 5,
+                "eu_no": 20,
+                "alu_no": 640,
+                "frequency": 1338,
+                "flops": 1.713,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000,
+                1000000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.06,
+                "horizontal_inch": 2.56,
+                "vertical_inch": 5.54,
+                "horizontal_physical": 1170,
+                "vertical_physical": 2532,
+                "horizontal_logical": 390,
+                "vertical_logical": 852,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 1000,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": true,
+            "always_on_display": false,
+            "refresh_rate_max": 120,
+            "refresh_rate_min": 10,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": false,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.5,
+                    "sensor_name": "Sony IMX703",
+                    "sensor_size": "1/1.65",
+                    "pixel_size": 1.9,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.8,
+                    "sensor_name": "Sony IMX713",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.8,
+                    "sensor_name": "Sony IMX772",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "With Slow Sync",
+            "photonic_engine": false,
+            "night_mode_portraits": true,
+            "photographic_style": true,
+            "macro_photo": true,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1,
+                3
+            ],
+            "digital_zoom": 15
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": true,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1,
+                3
+            ],
+            "digital_zoom": 9,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": true,
+            "prores_remarks": "4K at 30 fps (1080p at 30 fps for 128GB capacity)",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.87,
+            "watt_hour": 11.97,
+            "mah": 3095
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 13",
+        "slogan": "Your new superpower.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,5",
+        "model_number": [
+            "A2482",
+            "A2631",
+            "A2633",
+            "A2634",
+            "A2635"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2021-09-14",
+            "released_date": "2021-09-24",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "15.0",
+            "initial_build": "19A341/19A345",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 146.7,
+            "width": 71.5,
+            "depth": 7.65,
+            "weight": [
+                174
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Anodized Aluminum",
+            "back": "Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Green",
+                "code": "#394C38"
+            },
+            {
+                "name": "Pink",
+                "code": "#FADDD7"
+            },
+            {
+                "name": "Blue",
+                "code": "#276787"
+            },
+            {
+                "name": "(PRODUCT)RED",
+                "code": "#BF0013"
+            },
+            {
+                "name": "Starlight",
+                "code": "#FAF6F2"
+            },
+            {
+                "name": "Midnight",
+                "code": "#232A31"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 4,
+                "eu_no": 16,
+                "alu_no": 512,
+                "frequency": 1338,
+                "flops": 1.370,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 4000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.06,
+                "horizontal_inch": 2.56,
+                "vertical_inch": 5.54,
+                "horizontal_physical": 1170,
+                "vertical_physical": 2532,
+                "horizontal_logical": 390,
+                "vertical_logical": 852,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": false,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.6,
+                    "sensor_name": "Sony IMX603",
+                    "sensor_size": "1/1.88",
+                    "pixel_size": 1.7,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "",
+            "photonic_engine": false,
+            "night_mode_portraits": false,
+            "photographic_style": true,
+            "macro_photo": false,
+            "apple_proraw": false,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 5
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 3,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": false,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": false,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.84,
+            "watt_hour": 12.41,
+            "mah": 3227
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 13 mini",
+        "slogan": "Your new superpower.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone14,4",
+        "model_number": [
+            "A2481",
+            "A2626",
+            "A2628",
+            "A2629",
+            "A2630"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2021-09-14",
+            "released_date": "2021-09-24",
+            "discontinued_date": "",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "15.0",
+            "initial_build": "19A341/19A345",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 131.5,
+            "width": 64.2,
+            "depth": 7.65,
+            "weight": [
+                141
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Anodized Aluminum",
+            "back": "Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Green",
+                "code": "#394C38"
+            },
+            {
+                "name": "Pink",
+                "code": "#FADDD7"
+            },
+            {
+                "name": "Blue",
+                "code": "#276787"
+            },
+            {
+                "name": "(PRODUCT)RED",
+                "code": "#BF0013"
+            },
+            {
+                "name": "Starlight",
+                "code": "#FAF6F2"
+            },
+            {
+                "name": "Midnight",
+                "code": "#232A31"
+            }
+        ],
+        "chip": {
+            "name": "A15 Bionic",
+            "code_name": "APL1W07",
+            "part_no": "T8110",
+            "process_node": "N5P FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 15000000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Avalanche",
+                    "core_no": 2,
+                    "clock_speed": 3240,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 12000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Blizzard",
+                    "core_no": 4,
+                    "clock_speed": 2020,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 32
+            },
+            "gpu": {
+                "name": "Fifth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 4,
+                "eu_no": 16,
+                "alu_no": 512,
+                "frequency": 1338,
+                "flops": 1.370,
+                "flops_unit": "T",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 8
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 15800000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 4000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 5.42,
+                "horizontal_inch": 2.27,
+                "vertical_inch": 4.92,
+                "horizontal_physical": 1080,
+                "vertical_physical": 2340,
+                "horizontal_logical": 375,
+                "vertical_logical": 812,
+                "scale_factor": 3,
+                "pixel_density": 476,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": true,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": false,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.6,
+                    "sensor_name": "Sony IMX603",
+                    "sensor_size": "1/1.88",
+                    "pixel_size": 1.7,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "",
+            "photonic_engine": false,
+            "night_mode_portraits": false,
+            "photographic_style": true,
+            "macro_photo": false,
+            "apple_proraw": false,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 4",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 5
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1
+            ],
+            "digital_zoom": 3,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": false,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": true,
+            "apple_proraw": false,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        30
+                    ]
+                }
+            ],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.88,
+            "watt_hour": 9.34,
+            "mah": 2406
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 12 Pro Max",
+        "slogan": "It’s a leap year.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone13,4",
+        "model_number": [
+            "A2342",
+            "A2410",
+            "A2411",
+            "A2412"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2020-10-13",
+            "released_date": "2020-11-13",
+            "discontinued_date": "2021-09-14",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "14.1",
+            "initial_build": "18A8395",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 160.8,
+            "width": 78.1,
+            "depth": 7.4,
+            "weight": [
+                228
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Pacific Blue",
+                "code": "#2D4E5C"
+            },
+            {
+                "name": "Gold",
+                "code": "#FCEBD3"
+            },
+            {
+                "name": "Graphite",
+                "code": "#52514D"
+            },
+            {
+                "name": "Silver",
+                "code": "#E3E4DF"
+            }
+        ],
+        "chip": {
+            "name": "A14 Bionic",
+            "code_name": "APL1W01",
+            "part_no": "T8101",
+            "process_node": "N5 FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 11800000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Firestorm",
+                    "core_no": 2,
+                    "clock_speed": 3090,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 8000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Icestorm",
+                    "core_no": 4,
+                    "clock_speed": 1820,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 16
+            },
+            "gpu": {
+                "name": "Fourth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 4,
+                "eu_no": 16,
+                "alu_no": 256,
+                "frequency": 1278,
+                "flops": 654,
+                "flops_unit": "G",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 7
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 11000000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.68,
+                "horizontal_inch": 2.8,
+                "vertical_inch": 6.06,
+                "horizontal_physical": 1284,
+                "vertical_physical": 2778,
+                "horizontal_logical": 428,
+                "vertical_logical": 926,
+                "scale_factor": 3,
+                "pixel_density": 458,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": false,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.6,
+                    "sensor_name": "Sony IMX603",
+                    "sensor_size": "1/1.88",
+                    "pixel_size": 1.7,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Sensor-shift",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.2,
+                    "sensor_name": "Sony IMX613",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": false,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "With Slow Sync",
+            "photonic_engine": false,
+            "night_mode_portraits": true,
+            "photographic_style": false,
+            "macro_photo": false,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 3",
+            "optical_zoom": [
+                0.5,
+                1,
+                2.5
+            ],
+            "digital_zoom": 12
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Sensor-shift",
+            "optical_zoom": [
+                0.5,
+                1,
+                2.5
+            ],
+            "digital_zoom": 7,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": false,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 30
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.83,
+            "watt_hour": 14.13,
+            "mah": 3687
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    },
+    {
+        "type": "iphone",
+        "name": "iPhone 12 Pro",
+        "slogan": "It’s a leap year.",
+        "image": "image.jpg",
+        "hardware_string": "iPhone13,3",
+        "model_number": [
+            "A2341",
+            "A2406",
+            "A2407",
+            "A2408"
+        ],
+        "support_status": "supported",
+        "date": {
+            "announced_date": "2020-10-13",
+            "released_date": "2020-10-23",
+            "discontinued_date": "2021-09-14",
+            "unsupported_date": ""
+        },
+        "resistance": {
+            "ip_rating": "IP68",
+            "max_depth": 6,
+            "is_resistant_common_liquid": true
+        },
+        "operating_system": {
+            "initial_os": "14.1",
+            "initial_build": "18A8395",
+            "latest_os": "16.3.1",
+            "latest_build": "20D67"
+        },
+        "dimension": {
+            "height": 146.7,
+            "width": 71.5,
+            "depth": 7.4,
+            "weight": [
+                189
+            ]
+        },
+        "material": {
+            "front": "Glass",
+            "side": "Stainless Steel",
+            "back": "Matte Glass",
+            "ceramic_shield": true
+        },
+        "color": [
+            {
+                "name": "Pacific Blue",
+                "code": "#2D4E5C"
+            },
+            {
+                "name": "Gold",
+                "code": "#FCEBD3"
+            },
+            {
+                "name": "Graphite",
+                "code": "#52514D"
+            },
+            {
+                "name": "Silver",
+                "code": "#E3E4DF"
+            }
+        ],
+        "chip": {
+            "name": "A14 Bionic",
+            "code_name": "APL1W01",
+            "part_no": "T8101",
+            "process_node": "N5 FinFET",
+            "process_node_nm": 5,
+            "manufacturer": "TSMC",
+            "transistors_count": 11800000000,
+            "cpu": {
+                "isa": "ARM",
+                "isa_version": "8.5-A",
+                "bit_width": 64,
+                "hybrid_core": true,
+                "performance_core": {
+                    "core_name": "Firestorm",
+                    "core_no": 2,
+                    "clock_speed": 3090,
+                    "core_l1_i_cache": 192,
+                    "core_l1_d_cache": 128,
+                    "core_l2_cache": 8000,
+                    "core_amx": true
+                },
+                "efficiency_core": {
+                    "core_name": "Icestorm",
+                    "core_no": 4,
+                    "clock_speed": 1820,
+                    "core_l1_i_cache": 128,
+                    "core_l1_d_cache": 64,
+                    "core_l2_cache": 4000,
+                    "core_amx": true
+                },
+                "l3_cache": null,
+                "slc_cache": 16
+            },
+            "gpu": {
+                "name": "Fourth generation",
+                "is_apple_designed": true,
+                "vendor": "Apple",
+                "core_no": 4,
+                "eu_no": 16,
+                "alu_no": 256,
+                "frequency": 1278,
+                "flops": 654,
+                "flops_unit": "G",
+                "metal_2": true,
+                "metal_3": true,
+                "gpu_family": 7
+            },
+            "has_neural_engine": true,
+            "neural_engine": {
+                "core_no": 16,
+                "ops": 11000000000000
+            },
+            "memory": {
+                "type": "LPDDR4X-4266",
+                "frequency": 2133,
+                "channel_no": 1,
+                "bit_per_channel": 64,
+                "bandwidth": 34100,
+                "capacity": 6000,
+                "memory_swap": false,
+                "memory_swap_remarks": ""
+            }
+        },
+        "storage": {
+            "capacity": [
+                128000,
+                256000,
+                512000
+            ],
+            "type": "NVMe"
+        },
+        "display": {
+            "led_backlight": false,
+            "screen_type": "OLED",
+            "name": "Super Retina XDR",
+            "screen_size_resolution": {
+                "diagonal_inch": 6.06,
+                "horizontal_inch": 2.56,
+                "vertical_inch": 5.54,
+                "horizontal_physical": 1170,
+                "vertical_physical": 2532,
+                "horizontal_logical": 390,
+                "vertical_logical": 852,
+                "scale_factor": 3,
+                "pixel_density": 460,
+                "aspect_ratio": "19.5:9"
+            },
+            "brightness_contrast": {
+                "typical_max": 800,
+                "hdr_max": 1200,
+                "outdoor_max": null,
+                "contrast_ratio": 2000000
+            },
+            "oleophobic_coating": true,
+            "srgb": true,
+            "p3": true,
+            "color_bit": 8,
+            "true_tone": true,
+            "night_shift": true,
+            "promotion_display": false,
+            "always_on_display": false,
+            "refresh_rate_max": 60,
+            "refresh_rate_min": 60,
+            "hdr_display": true,
+            "hdr_content": true,
+            "dolby_vision": true,
+            "dolby_vision_hdr": true,
+            "dynamic_island": false,
+            "apple_pencil_hover": false
+        },
+        "connector": {
+            "port": "Lightning",
+            "usb_type": "2.0",
+            "has_thunderbolt": false,
+            "thunderbolt_type": null,
+            "apple_pencil_gen": null,
+            "keyboard": {
+                "bluetooth_keyboard": false,
+                "smart_keyboard": false,
+                "smart_keyboard_folio": false,
+                "magic_keyboard": false,
+                "magic_keyboard_folio": false
+            }
+        },
+        "connectivity": {
+            "wifi": "ax",
+            "wifi_gen": 6,
+            "wifi_mimo": "2x2",
+            "bluetooth": "5.0",
+            "nfc": true,
+            "nfc_reader": true,
+            "nfc_reader_type": "Background",
+            "express_card": true,
+            "power_reserve": true,
+            "ultra_wideband": true,
+            "cellular_5g": true,
+            "cellular_5g_mimo": "4x4",
+            "cellular_lte": true,
+            "cellular_lte_type": "Gigabit-LTE",
+            "cellular_lte_mimo": "4x4",
+            "cellular_hspda": true,
+            "cellular_umts_hspa_plus": true,
+            "cellular_cdma_rev_a": true,
+            "cellular_cdma_rev_b": false,
+            "cellular_gsm_edge": true,
+            "volte": true,
+            "sim_card": {
+                "form_factor": "Nano-SIM",
+                "no_physical_sim_us": false,
+                "dual_sim": true,
+                "dual_esim": true,
+                "dual_nano_sim": true
+            },
+            "gps": {
+                "gps": true,
+                "glonass": true,
+                "galileo": true,
+                "qzss": true,
+                "beidou": true,
+                "dual_frequency": false
+            }
+        },
+        "external_display": {
+            "max_no": 0,
+            "resolution": ""
+        },
+        "secure_auth": {
+            "touch_id": false,
+            "touch_id_location": "",
+            "face_id": true
+        },
+        "safety": {
+            "emergency_sos": true,
+            "emergency_sos_satellite": true,
+            "crash_detection": true
+        },
+        "sensors": {
+            "lidar": true,
+            "proximity": true,
+            "ambient_light_sensor": true,
+            "barometer": true,
+            "gyro_type": "Three-Axis Gyro",
+            "acclerometer_type": "Accelerometer"
+        },
+        "rear_camera": {
+            "camera": [
+                {
+                    "type": "Main",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 1.6,
+                    "sensor_name": "Sony IMX503",
+                    "sensor_size": "1/2.55",
+                    "pixel_size": 1.4,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 7,
+                    "focus_pixel": true,
+                    "focus_pixel_100": true,
+                    "night_mode": true,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Telephoto",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.8,
+                    "sensor_name": "Sony IMX356",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": true,
+                    "ois_type": "Lens-based",
+                    "lens_element": 6,
+                    "focus_pixel": true,
+                    "focus_pixel_100": false,
+                    "night_mode": false,
+                    "deep_fusion": true
+                },
+                {
+                    "type": "Ultra Wide",
+                    "has_quad_bayer": false,
+                    "resolution": 12,
+                    "resolution_quad_bayer": null,
+                    "aperture": 2.4,
+                    "sensor_name": "Sony IMX372",
+                    "sensor_size": "1/3.4",
+                    "pixel_size": 1,
+                    "pixel_size_quad_bayer": null,
+                    "has_ois": false,
+                    "ois_type": "",
+                    "lens_element": 5,
+                    "focus_pixel": false,
+                    "focus_pixel_100": false,
+                    "night_mode": true,
+                    "deep_fusion": true
+                }
+            ],
+            "true_tone_flash": true,
+            "true_tone_flash_remark": "With Slow Sync",
+            "photonic_engine": false,
+            "night_mode_portraits": true,
+            "photographic_style": false,
+            "macro_photo": false,
+            "apple_proraw": true,
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "hdr_type": "Smart HDR 3",
+            "optical_zoom": [
+                0.5,
+                1,
+                2
+            ],
+            "digital_zoom": 10
+        },
+        "video_recording": {
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 60
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120,
+                        240
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "action_mode": false,
+            "time_lapse": true,
+            "time_lapse_night_mode": true,
+            "quicktake_video": true,
+            "macro_video": false,
+            "audio_zoom": true,
+            "stereo_recording": true,
+            "video_ois": "Lens-based",
+            "optical_zoom": [
+                0.5,
+                1,
+                2
+            ],
+            "digital_zoom": 6,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "front_camera": {
+            "is_truedepth": true,
+            "resolution": 12,
+            "aperture": 2.2,
+            "sensor_name": "Sony IMX514",
+            "focus_pixel": true,
+            "night_mode": true,
+            "deep_fusion": true,
+            "photonic_engine": true,
+            "retina_flash": true,
+            "hdr_type": "Smart HDR 4",
+            "portrait_mode": true,
+            "portrait_depth_control": true,
+            "portrait_lightning": [
+                "Natural",
+                "Studio",
+                "Contour",
+                "Stage",
+                "Stage Mono",
+                "High-Key Mono"
+            ],
+            "live_photos": true,
+            "live_photos_wide_color": true,
+            "animoji_memoji": true,
+            "photographic_style": false,
+            "apple_proraw": true,
+            "resolution_frame": [
+                {
+                    "resolution": "4K",
+                    "frame_rate": [
+                        24,
+                        25,
+                        30,
+                        60
+                    ]
+                },
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        25,
+                        30,
+                        60
+                    ]
+                }
+            ],
+            "cinematic": [],
+            "hdr_dolby_vision": {
+                "resolution": "4K",
+                "frame_rate": 30
+            },
+            "slow_mo": [
+                {
+                    "resolution": "1080p",
+                    "frame_rate": [
+                        120
+                    ]
+                }
+            ],
+            "prores": false,
+            "prores_remarks": "",
+            "quicktake_video": true,
+            "cinematic_stabilization": [
+                "4K",
+                "1080p",
+                "720p"
+            ]
+        },
+        "audio": {
+            "playback_type": "Spatial",
+            "dolby_atmos": {
+                "built_in_speaker": true,
+                "headphones": true
+            }
+        },
+        "facetime": {
+            "video": true,
+            "audio": true,
+            "facetime_hd": true,
+            "wifi": true,
+            "cellular_5g": true
+        },
+        "hac": {
+            "rating": "M3, T4",
+            "hearing_aids": true,
+            "live_listen": true
+        },
+        "battery": {
+            "volt": 3.83,
+            "watt_hour": 10.78,
+            "mah": 2815
+        },
+        "fast_charge": {
+            "watt": 20,
+            "ampere": 2.2,
+            "volt": 9,
+            "box_included": false
+        },
+        "wireless_charge": true,
+        "magsafe_charge": true
+    }
+]
