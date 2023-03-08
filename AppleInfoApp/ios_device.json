@@ -1060,6 +1060,10 @@
         },
         "color": [
             {
+                "name": "Yellow",
+                "code": "#F9E479"
+            },
+            {
                 "name": "Blue",
                 "code": "#A0B4C7"
             },
@@ -1547,6 +1551,10 @@
             "ceramic_shield": true
         },
         "color": [
+            {
+                "name": "Yellow",
+                "code": "#F9E479"
+            },
             {
                 "name": "Blue",
                 "code": "#A0B4C7"
